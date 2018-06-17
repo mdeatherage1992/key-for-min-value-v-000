@@ -8,7 +8,7 @@ name_hash.collect do |name,value|
   if value < min || min == 0
     value = min
     name = name
-    return name
   end
 end
+  return name
 end
